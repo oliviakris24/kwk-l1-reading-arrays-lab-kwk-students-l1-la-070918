@@ -27,6 +27,8 @@ def fourth_student_by_index
   puts STUDENT_NAMES[3]
 end 
 
+fourth_student_by_index
+
 def last_student_by_index
   # Write a solution that returns the first student in the array student_names
 end
@@ -35,14 +37,32 @@ def last_student_by_index
   puts STUDENT_NAMES[5]
 end
 
+last_student_by_index
+
 def first_student_by_method
   # Write a solution that returns the first student using the built in .first method
 end
+ 
+def first_student_by_method
+  puts STUDENT_NAMES.first 
+end 
+first_student_by_method
 
 def last_student_by_method
   # Write a solution that returns the first student using the built in .last method
 end
 
+def last_student_by_method
+  puts STUDENT_NAMES.last
+end 
+
+last_student_by_method
 def first_second_and_third_students
   # Write a solution that returns the first, second and third students
 end
+
+def first_second_and_third_students
+  puts STUDENT_NAMES[0, 1, 2]
+end 
+
+first_second_and_third_students
