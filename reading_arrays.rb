@@ -15,6 +15,8 @@ def first_student_by_index
   puts STUDENT_NAMES
   puts first_student_by_index
 end 
+
+first_student_by_index
   
 
 
