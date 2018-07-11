@@ -33,10 +33,10 @@ def first_second_and_third_students
   puts STUDENT_NAMES[2]
 end 
 
+puts first_student_by_index
+puts fourth_student_by_index
+puts last_student_by_index
 puts 
-puts
-puts
-puts
 puts
 
 
